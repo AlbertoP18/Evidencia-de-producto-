@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="estilos.css">
+
+
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+
+        <h1> PRODUCTOS</h1>
+
+        <form id="formu">
+
+
+            <input type="text" placeholder="Cod " id="cod">
+
+            <input type="text" placeholder="Nombre" id="nombre">
+
+            <input type="number" placeholder="Cantidad " id="cantidad">
+
+            <input type="text" placeholder="Precio" id="precio">
+
+
+            <input type="submit" class="bt" placeholder="enviar" onclick="mostrardatos()">
+
+        </form>
+    </div>
+
+
+
+
+
+    <div class="tble">
+
+        <table id="tablita">
+            <tr>
+
+                <th>Codigo</th>
+                <th>Nombre</th>
+                <th>Cantidad</th>
+                <th>Precio </th>
+                <th>Ver</th>
+            </tr>
+
+            <button id="funtion1" class="button"> Observar  </button>
+
+
+
+
+
+
+        </table>
+    </div>
+
+
+
+    <section class="modal " id="modalpro">
+        <div class="modal_container">
+            <h2>Actualizar datos</h2>
+            <a href="#" class="modal_cerrar" id="modalcierre">Cerrar Modal</a>
+        </div>
+    </section>
+
+
+    <script src="A.js"></script>
+</body>
+
+</html>
